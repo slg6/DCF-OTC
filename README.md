@@ -70,3 +70,5 @@ python fine-tuning/run_jushi_pos_ood12_center_sep.py
 ```
 
 The script performs supervised codeword assignment, EMA codebook updates, threshold calibration on the known-class validation set (95th percentile by default), and reports known-class accuracy / macro-F1, known-class acceptance rate, and unknown detection rate. Unknown classes appear only in the test set.
+
+Note: this code is based on [ET-Bert](https://github.com/linwhitehat/ET-BERT), [UER-py](https://github.com/dbiir/UER-py) and [PyCIL](https://github.com/LAMDA-CL/PyCIL). Many thanks to the authors.
