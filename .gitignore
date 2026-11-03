@@ -1,0 +1,13 @@
+vocab_gen/*.txt
+*.pt
+**/__pycache__
+pre-training/pre-training-model/*
+*.log
+
+.envrc
+fine-tuning/run/*
+.vscode/
+*.bin
+fine-data/fine_data_flow/**/*.bin
+fine-data/fine_data_flow/**/*.tsv
+fine-data/fine_data_flow/**/*.json
