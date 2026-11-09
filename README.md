@@ -4,12 +4,6 @@ Official implementation of **DCF-OTC**, a representation-driven method for open-
 
 > Paper: *DCF-OTC: Discrete Codebook Fingerprints for Open-Set Traffic Classification* (IEEE S&P 2027 submission). Experiments cover seven public datasets across three tasks (encrypted malware detection, TLS 1.3 website identification, mobile application identification); DCF-OTC achieves the highest closed-set macro-F1 on all seven datasets and 78.32% average unknown detection rate, compared with 48.54% for the per-dataset best baselines.
 
-## Key Idea
-
-Existing open-set rejection methods compress a flow into a single sample-level scalar (confidence, energy, gradient, or reconstruction-error score). 
-
-The method reads only packet-header fields (no payload, port, or sequence-number fields) and is robust to encryption strength.
-
 ## Repository Structure
 
 ```
